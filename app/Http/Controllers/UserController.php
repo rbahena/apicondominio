@@ -86,7 +86,7 @@ class UserController extends Controller
           $signup = array(
           'status' => 'error',
           'code' => 400,
-          'message' => 'Error al enviar los datos por POST'
+          'message' => 'Error al enviar los datos.'
         );
         }
           return response()->json($signup,200);

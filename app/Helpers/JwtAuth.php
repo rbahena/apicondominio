@@ -52,7 +52,7 @@ class JwtAuth{
         $data = array(
                 'status'=>'error',
                 'code' => 400,
-                'message'=> 'El usuario no existe, o sus credenciales son incorrectas'
+                'message'=> 'Revisar credenciales!!!'
                         );
          //Devolver un error
          return $data;

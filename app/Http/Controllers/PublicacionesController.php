@@ -63,7 +63,7 @@ class PublicacionesController extends Controller
       }
       else {
         $data = array(
-        'message' => 'Error al crear la publicacion',
+        'message' => 'Error al crear la publicación',
         'status' => 'error',
         'code'=> 300  ,
       );
